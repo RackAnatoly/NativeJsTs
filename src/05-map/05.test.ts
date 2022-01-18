@@ -9,6 +9,7 @@ beforeEach(() => {
         {name: "Alexander Petrov", age: 24},
         {name: "Dmitry Sidorod", age: 18},
     ]
+
 })
 
 test('greeting messages', ()=>{
