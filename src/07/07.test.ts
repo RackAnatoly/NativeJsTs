@@ -18,7 +18,7 @@
 //
 // })
 
-const props={
+const props:any={
     name:'Dimych',
     age:32,
     lessons:[{title:'1'},{title:'2'},{title:'2'}],
@@ -27,9 +27,13 @@ const props={
             title:'Kachana street'
         }
     }}
+
+props['привет как дела']='хорошо';
+
+
 test("", ()=>{
 const [ls1,...restLessons]=props.lessons;
 
-expect(restLessons.length).toBe(2)
+expect(props['привет как дела']).toBe('хорошо')
 
 })
