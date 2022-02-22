@@ -7,9 +7,7 @@ type UserType = {
     age: number
 }
 
-
 test('big test', () => {
-
     let user: any = [
         {
             name: 'Anatoli',
@@ -27,7 +25,6 @@ test('big test', () => {
         name: 'Anatoli',
         age: 32
     })
-
 
     expect(user[2]).toBe({
         name: 'Anatol',

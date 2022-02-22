@@ -1,5 +1,8 @@
-let user:UserType={
-    name:'Anatoli',
-    age:32,
+let user: UserType = {
+    name: 'Anatoli',
+    age: 32,
 }
 
+const one = () => {
+
+}
