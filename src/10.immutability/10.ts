@@ -55,5 +55,5 @@ export function updateCompanyName(
     id: number,
     newCompany: string
 ) {
-return {...companies,[name]:companies[name].map(m=>m.id===id?{...m,title:newCompany}:m)}
+return {...companies,[name]:companies[name].map((m:any)=>m.id===id?{...m,title:newCompany}:m)}
 }
